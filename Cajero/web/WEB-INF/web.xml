@@ -1,0 +1,30 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>ServletRegistro</servlet-name>
+        <servlet-class>servletHTML.ServletRegistro</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletRegistro</servlet-name>
+        <url-pattern>/ServletRegistro</url-pattern>
+    </servlet-mapping>
+    
+   <servlet>
+        <servlet-name>ServletAbonar</servlet-name>
+        <servlet-class>servletHTML.ServletAbonar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAbonar</servlet-name>
+        <url-pattern>/ServletAbonar</url-pattern>
+    </servlet-mapping>
+     
+     <servlet>
+        <servlet-name>ServletRetirar</servlet-name>
+        <servlet-class>servletHTML.ServletRetirar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletRetirar</servlet-name>
+        <url-pattern>/ServletRetirar</url-pattern>
+    </servlet-mapping>
+     
+</web-app>
